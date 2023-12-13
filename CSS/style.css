@@ -9,6 +9,9 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: var(--body-bg-color);
 }
+img {
+  max-width: 100%;
+}
 
 /*ROOT*/
 :root {
@@ -38,13 +41,39 @@ body {
 .logo-section {
   width: 100%;
   height: 10%;
-  background-color: rgb(192, 192, 41);
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo {
+  height: 35px;
+  width: 35px;
+}
+
+.logo-name {
+  padding-left: 3px;
+  font-size: 20px;
+  color: white;
 }
 
 .home-section {
   width: 100%;
   height: 15%;
-  background-color: green;
+}
+
+.home-img {
+  width: 20px;
+  height: 20px;
+  margin-top: 8px;
+  margin-left: 7px;
+}
+
+.home {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
 }
 
 .playlist-section {
@@ -115,7 +144,6 @@ body {
 .card {
   width: calc(100 / 6);
   aspect-ratio: 1;
-  background-color: aquamarine;
 }
 
 .song-title {
