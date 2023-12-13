@@ -211,6 +211,20 @@ ul {
 
 .card {
   aspect-ratio: 1;
+  position: relative;
+}
+
+.card:hover .fa-play-circle {
+  display: inline;
+}
+
+.fa-play-circle {
+  color: white;
+  position: absolute;
+  margin-top: 50%;
+  margin-left: -50%;
+  transform: translate(-50%, -50%);
+  display: none;
 }
 
 .song-title {
@@ -304,12 +318,57 @@ ul {
   background-color: rgb(53, 53, 185);
 }
 
+@media screen and (max-width: 800px) {
+  .sinister-img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .sinister-title {
+    font-size: 12px;
+  }
+
+  .sinister-subtitle {
+    font-size: 9px;
+  }
+
+  .fa-heart {
+    width: 16px;
+    margin-right: 7px;
+  }
+
+  .fa-folder {
+    width: 5px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .indications {
-    margin-top: 15px;
+    margin-top: 150px;
+  }
+
+  .row {
+    flex-wrap: wrap;
   }
 
   .col {
     width: calc(100% / 4);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .col {
+    width: calc(100% / 2);
+  }
+
+  .icons-separation {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .fa-heart {
+    width: 16px;
+    margin-right: -7px;
   }
 }
