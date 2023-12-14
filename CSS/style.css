@@ -218,7 +218,7 @@ ul {
   display: inline;
 }
 
-.fa-play-circle {
+.fa-4x {
   color: white;
   position: absolute;
   margin-top: 50%;
@@ -309,13 +309,95 @@ ul {
 .play-bar {
   height: 100%;
   width: 60%;
-  background-color: orangered;
+}
+
+.scroll-bar {
+  width: 65%;
+  height: 3px;
+  background-color: gray;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+.advancement {
+  height: 3px;
+  width: 30%;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.minutes {
+  color: white;
+  display: inline-block;
+  padding-right: 28px;
+  padding-left: 50px;
+}
+
+.section-playbar-up {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.fa-random {
+  color: white;
+  padding: 0 10px;
+}
+
+.fa-step-backward {
+  color: white;
+  padding: 0 10px;
+}
+
+.fa-play-circle {
+  color: white;
+  padding: 0 10px;
+}
+
+.fa-step-forward {
+  color: white;
+  padding: 0 10px;
+}
+
+.fa-undo {
+  color: white;
+  padding: 0 10px;
 }
 
 .little-play-bar {
   height: 100%;
   width: 20%;
-  background-color: rgb(53, 53, 185);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.fa-bars {
+  color: white;
+}
+
+.fa-desktop {
+  color: white;
+}
+
+.fa-volume-up {
+  color: white;
+}
+
+.little-scroll-bar {
+  height: 2px;
+  width: 50%;
+  border-radius: 25px;
+  background-color: grey;
+}
+
+.little-advancement {
+  height: 2px;
+  width: 30%;
+  border-radius: 25px;
+  background-color: white;
 }
 
 @media screen and (max-width: 800px) {
@@ -370,5 +452,25 @@ ul {
   .fa-heart {
     width: 16px;
     margin-right: -7px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  :root {
+    --navbar-width: 80px;
+  }
+
+  .playlist-title {
+    display: none;
+  }
+
+  .playlist-plus {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .indications {
+    margin-top: 200px;
   }
 }
