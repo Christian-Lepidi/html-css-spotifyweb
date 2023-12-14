@@ -66,7 +66,10 @@
       </div>
       <main id="app-main">
         <div id="main-top-bar">
-          <a href="#" class="upgrade">effettua l'upgrade</a>
+          <div class="button-upgrade">
+            <a href="#" class="upgrade">effettua l'upgrade</a>
+            <a href="#" class="hover-upgrade">effettua l'upgrade</a>
+          </div>
         </div>
         <div id="main-content">
           <div class="link-container">
@@ -83,7 +86,9 @@
               <div class="col">
                 <div class="card">
                   <img src="./spotify/img/metal_lifting.jpg" alt="" />
-                  <i class="far fa-play-circle fa-4x"></i>
+                  <div class="layer">
+                    <i class="far fa-play-circle fa-4x"></i>
+                  </div>
                 </div>
                 <h4 class="song-title">Heavy Metal</h4>
                 <div class="subtitle">Subtitle</div>
@@ -91,7 +96,9 @@
               <div class="col">
                 <div class="card">
                   <img src="./spotify/img/stranger.jpeg" alt="" />
-                  <i class="far fa-play-circle fa-4x"></i>
+                  <div class="layer">
+                    <i class="far fa-play-circle fa-4x"></i>
+                  </div>
                 </div>
                 <h4 class="song-title">
                   Stranger Things, vol.1(a Netflix original series soundtrack)
@@ -101,7 +108,9 @@
               <div class="col">
                 <div class="card">
                   <img src="./spotify/img/aquietplace.jpeg" alt="" />
-                  <i class="far fa-play-circle fa-4x"></i>
+                  <div class="layer">
+                    <i class="far fa-play-circle fa-4x"></i>
+                  </div>
                 </div>
                 <h4 class="song-title">A Quiet Place</h4>
                 <div class="subtitle">Subtitle</div>
@@ -109,7 +118,9 @@
               <div class="col">
                 <div class="card">
                   <img src="./spotify/img/split.jpeg" alt="" />
-                  <i class="far fa-play-circle fa-4x"></i>
+                  <div class="layer">
+                    <i class="far fa-play-circle fa-4x"></i>
+                  </div>
                 </div>
                 <h4 class="song-title">Split</h4>
                 <div class="subtitle">Subtitle</div>
@@ -117,7 +128,9 @@
               <div class="col">
                 <div class="card">
                   <img src="./spotify/img/cure.jpeg" alt="" />
-                  <i class="far fa-play-circle fa-4x"></i>
+                  <div class="layer">
+                    <i class="far fa-play-circle fa-4x"></i>
+                  </div>
                 </div>
                 <h4 class="song-title">A Cure for Wellness</h4>
                 <div class="subtitle">Subtitle</div>
@@ -125,7 +138,9 @@
               <div class="col">
                 <div class="card">
                   <img src="./spotify/img/sinister.jpeg" alt="" />
-                  <i class="far fa-play-circle fa-4x"></i>
+                  <div class="layer">
+                    <i class="far fa-play-circle fa-4x"></i>
+                  </div>
                 </div>
                 <h4 class="song-title">Sinister</h4>
                 <div class="subtitle">Subtitle</div>
@@ -139,14 +154,18 @@
               <div class="col">
                 <div class="card">
                   <img src="./spotify/img/radar.jpeg" alt="" />
-                  <i class="far fa-play-circle fa-4x"></i>
+                  <div class="layer">
+                    <i class="far fa-play-circle fa-4x"></i>
+                  </div>
                 </div>
                 <h4 class="song-title">Release Radar</h4>
               </div>
               <div class="col">
                 <div class="card">
                   <img src="./spotify/img/mixdaily.jpeg" alt="" />
-                  <i class="far fa-play-circle fa-4x"></i>
+                  <div class="layer">
+                    <i class="far fa-play-circle fa-4x"></i>
+                  </div>
                 </div>
                 <h4 class="song-title">Daily Mix 1</h4>
               </div>
@@ -159,7 +178,9 @@
               <div class="col">
                 <div class="card circle">
                   <img src="./spotify/img/youg.jpeg" alt="" />
-                  <i class="far fa-play-circle fa-4x"></i>
+                  <div class="layer">
+                    <i class="far fa-play-circle fa-4x"></i>
+                  </div>
                 </div>
                 <h4 class="song-title">Young</h4>
                 <div class="subtitle">Subtitle</div>
@@ -167,7 +188,9 @@
               <div class="col">
                 <div class="card">
                   <img src="./spotify/img/einaudi.jpeg" alt="" />
-                  <i class="far fa-play-circle fa-4x"></i>
+                  <div class="layer">
+                    <i class="far fa-play-circle fa-4x"></i>
+                  </div>
                 </div>
                 <h4 class="song-title">Einaudi</h4>
                 <div class="subtitle">Subtitle</div>
@@ -199,11 +222,14 @@
           <i class="fas fa-step-forward"></i>
           <i class="fas fa-undo"></i>
         </div>
-        <div class="minutes">0:25</div>
-        <div class="scroll-bar">
-          <div class="advancement"></div>
+        <div class="progress-bar-container">
+          <div class="minutes">0:25</div>
+          <div class="scroll-bar">
+            <div class="advancement"></div>
+            <div class="green-advancement"></div>
+          </div>
+          <div class="minutes">4:35</div>
         </div>
-        <div class="minutes">4:35</div>
       </section>
       <section class="little-play-bar">
         <i class="fas fa-bars"></i>
@@ -211,6 +237,7 @@
         <i class="fas fa-volume-up"></i>
         <div class="little-scroll-bar">
           <div class="little-advancement"></div>
+          <div class="little-green-advancement"></div>
         </div>
       </section>
     </footer>
