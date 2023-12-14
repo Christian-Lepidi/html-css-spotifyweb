@@ -612,3 +612,10 @@ ul {
     margin-top: 200px;
   }
 }
+
+@media screen and (max-height: 579px) {
+  #app-player {
+    position: sticky;
+    margin-bottom: 0;
+  }
+}
