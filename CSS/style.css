@@ -176,11 +176,6 @@ ul {
   justify-content: flex-end;
 }
 
-.button-upgrade {
-  width: 15%;
-  height: 45%;
-}
-
 .upgrade {
   padding: 10px 20px;
   text-decoration: none;
@@ -333,6 +328,11 @@ ul {
   color: lightgrey;
 }
 
+.sinister-subtitle:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 .icons-separation {
   height: 100%;
   width: 50%;
@@ -350,6 +350,14 @@ ul {
 .fa-folder {
   margin-right: 2px;
   color: lightgrey;
+}
+
+.fa-heart:hover {
+  color: white;
+}
+
+.fa-folder:hover {
+  color: white;
 }
 
 .play-bar {
@@ -440,6 +448,10 @@ ul {
 .fa-play-circle {
   color: white;
   padding: 0 10px;
+}
+
+.fa-play-circle:hover {
+  font-size: 20px;
 }
 
 .fa-step-forward {
