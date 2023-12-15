@@ -612,6 +612,30 @@ ul {
   .playlist-plus {
     display: none;
   }
+
+  .app-installer {
+    display: none;
+  }
+
+  .john-doe-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .line-separation {
+    display: none;
+  }
+
+  .john-doe {
+    display: none;
+  }
+
+  .fa-user-circle {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 390px) {
